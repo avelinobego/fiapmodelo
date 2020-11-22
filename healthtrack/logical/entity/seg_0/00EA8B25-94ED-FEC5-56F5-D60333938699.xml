@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00EA8B25-94ED-FEC5-56F5-D60333938699" name="T A FISICA">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>B2214374-8A23-8C7F-00F2-33DCBD9FB561</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD A FIS" id="CE5D2C1B-5D6C-CE02-2E95-85F3D0305CB4">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>8D76ECD9-5CDC-6220-4853-4F954AFA4F59</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM A FIS" id="38C5A12E-05FB-52AD-2BEB-9C4E9ABC55B5">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>207C0EF0-2142-2CE8-428E-E30F6DD764CD</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR KCAL P MIN" id="9891F0A2-81B4-8B40-89D4-A3E1D20DDA35">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>A2B4D877-BC3E-EB13-76BE-9A435661F77F</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D9FFCE9-D0B2-AB91-1FA8-BF0DB44DAF58" name="T A FISICA PK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>0C1D2DCF-1627-E365-F5CC-13CE2CD26FB3</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE5D2C1B-5D6C-CE02-2E95-85F3D0305CB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

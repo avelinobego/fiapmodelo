@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="80231CE2-5BDE-05B2-00EB-B409051C4C60" name="T USER">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>A899CC62-74D8-CF0B-472C-4AF8D50EBE4C</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID USER" id="03F9F833-96F3-AF1F-00A3-254063DF517A">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>EDBB009E-0FF8-6D31-6F18-C12F51D17386</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM USER" id="E924B797-8918-A776-7A13-39AA072E301F">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>0A2F5CE5-1521-A34B-423A-7EBCFEA881CF</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS EMAIL" id="CE0170B1-12E5-06C6-B8E2-4A771A293ACE">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>70F9C203-93DB-D4AC-B6C2-22E9385CF4C9</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS SENHA" id="4628B323-B794-514F-4EAD-3C44973CE306">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>7D667F7A-7BAE-E4D5-9E73-CDCEB40FC302</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR TELEFONE" id="5FFAE271-9EAF-038A-C050-6C1A15A91E2F">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>DC77EE3D-14A6-27BC-3E86-5293BE0B87B8</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,13,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FOTO PERFIL" id="B04196F3-5391-FF43-ED8C-59C2E51CDDFD">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>F77883A8-6690-F903-92C4-B99CB36A523B</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR PESO" id="14D9904D-225C-F9EA-519C-5A9A1A07B970">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>56760929-9381-0AA2-BA77-2CB2ADB06542</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR ALTURA" id="84DE31A5-B728-AB56-90D8-476017175585">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>9CE8E10F-AD4F-4EAD-45A7-2BE9186F2BB8</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS SEXO" id="9F210EBB-4FCD-1B72-B5E6-C7AA5E54AA3D">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>16AE5859-5105-06A6-C89A-EC3262A17952</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT NASC" id="D740B587-BCC8-FFFA-8623-0CD4C20EDBA4">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>EDE286DF-C43C-7ECA-5E4B-AF1379C7730D</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR KCAL DIA" id="4AB5D1A3-5F05-8246-D8FF-93FE4320EACA">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>5D98118F-3D6D-D56E-317C-B483A08E205E</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A8AB9C3-06CE-4572-E252-75072BCDDCE2" name="T USER PK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03F9F833-96F3-AF1F-00A3-254063DF517A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

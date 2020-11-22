@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="T_USER" directorySegmentName="seg_0" id="A899CC62-74D8-CF0B-472C-4AF8D50EBE4C">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E5DA5536-2F79-F1B5-E491-BCA66C1A25E1</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NM_USER" id="0A2F5CE5-1521-A34B-423A-7EBCFEA881CF">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DS_SEXO" id="16AE5859-5105-06A6-C89A-EC3262A17952">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_PESO" id="56760929-9381-0AA2-BA77-2CB2ADB06542">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_KCAL_DIA" id="5D98118F-3D6D-D56E-317C-B483A08E205E">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DS_EMAIL" id="70F9C203-93DB-D4AC-B6C2-22E9385CF4C9">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DS_SENHA" id="7D667F7A-7BAE-E4D5-9E73-CDCEB40FC302">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_ALTURA" id="9CE8E10F-AD4F-4EAD-45A7-2BE9186F2BB8">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_TELEFONE" id="DC77EE3D-14A6-27BC-3E86-5293BE0B87B8">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_USER" id="EDBB009E-0FF8-6D31-6F18-C12F51D17386">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_NASC" id="EDE286DF-C43C-7ECA-5E4B-AF1379C7730D">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOTO_PERFIL" id="F77883A8-6690-F903-92C4-B99CB36A523B">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_USER_PK" id="A7260008-4F1A-A8D6-5B67-F71FEF1E24C6">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<segment>B3125343-D6F5-D171-F21F-C3399219A957</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000073673C00006$$" id="93884B1F-C706-B42E-AACC-B4A1DB4A81D9">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>FOTO_PERFIL</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_USER_PK" id="B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<segment>B3125343-D6F5-D171-F21F-C3399219A957</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<existingIndex>A7260008-4F1A-A8D6-5B67-F71FEF1E24C6</existingIndex>
+<indexSegment>B3125343-D6F5-D171-F21F-C3399219A957</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

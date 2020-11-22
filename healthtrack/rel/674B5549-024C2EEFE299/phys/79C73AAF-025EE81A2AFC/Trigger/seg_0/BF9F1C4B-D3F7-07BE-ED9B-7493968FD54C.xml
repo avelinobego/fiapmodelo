@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FKNTM_T_IMC" directorySegmentName="seg_0" id="BF9F1C4B-D3F7-07BE-ED9B-7493968FD54C">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>FKNTM_T_IMC</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table fiap.T_IMC is violated');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>B25E3554-D309-D9FB-42AA-69F858565636</columns>
+<owner>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>DB95DEEE-E8D0-D699-2C07-D7CC86D4FF48</table>
+</TriggerOraclev10g>

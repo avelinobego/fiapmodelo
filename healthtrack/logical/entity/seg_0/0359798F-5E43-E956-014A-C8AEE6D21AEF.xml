@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0359798F-5E43-E956-014A-C8AEE6D21AEF" name="T BAT CARD">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>05E52360-A8B6-D35C-3AB2-35C2FB54D9EB</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD BAT CARD" id="D138E31E-4EDD-BB2B-79DA-2AF38B0313AF">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>49F04387-4FC8-22F2-BBC1-C251A46CFB53</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR BAT CARD" id="85350C0A-B8A4-EDC9-FB77-A0592A1DE999">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>06C214F9-4004-28CE-D914-494D80A7E389</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT BAT CARD" id="C1DC7A64-D2EE-036F-AA55-79B7D2ABB04F">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>0DA6269A-9974-CE75-6240-D80BEACCC01B</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T USER ID USER" id="F6D990B1-8308-DD14-C9D0-92A2FB5C2DF1">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>D0B9211B-34A6-3981-137E-7C44B7DC0E7F</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<referedAttribute>03F9F833-96F3-AF1F-00A3-254063DF517A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFF9D193-0DEC-F93D-4D23-FBAF3FCAE284" name="T BAT CARD PK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>BC287428-E78B-E78E-BE78-E0DBE6C367DA</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D138E31E-4EDD-BB2B-79DA-2AF38B0313AF</attributeRef>
+<attributeRef>F6D990B1-8308-DD14-C9D0-92A2FB5C2DF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

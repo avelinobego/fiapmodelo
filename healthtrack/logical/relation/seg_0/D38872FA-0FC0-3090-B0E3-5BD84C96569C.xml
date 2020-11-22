@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_IMC_T_USER_FK" directorySegmentName="seg_0" id="D38872FA-0FC0-3090-B0E3-5BD84C96569C">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:22:06 UTC</createdTime>
+<generatorID>1CC07290-C555-FC90-6D34-66D3FA1DBFB5</generatorID>
+<ownerDesignName>healthtrack</ownerDesignName>
+<engineerTo>
+<item key="674B5549-4EFF-EDF0-FE08-024C2EEFE299" value="true"/>
+</engineerTo>
+<sourcePk>0A8AB9C3-06CE-4572-E252-75072BCDDCE2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80231CE2-5BDE-05B2-00EB-B409051C4C60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D43A5DCD-1EDA-ED80-E299-A4897EF4AE36</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="FIAP" directorySegmentName="seg_0" id="39A3F895-7120-4ED3-F14C-45F55D3C7CBB">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</SchemaObject>

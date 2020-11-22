@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FKNTM_T_DESAF_MOT" directorySegmentName="seg_0" id="BBFB29A2-7CDB-564A-D584-0FBBEDDD8B13">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>FKNTM_T_DESAF_MOT</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table fiap.T_DESAF_MOT is violated');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>CEC0C04A-78CF-5D35-3134-D3E009A68951</columns>
+<owner>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>00648BB2-F7D2-3321-0C38-DD85BF15E2E0</table>
+</TriggerOraclev10g>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FD9D6F5-A338-83C3-9B62-36A3302A5445" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_ALIMENTOS">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_ALIMENTOS</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_ALIMENTO" id="F7F5D5A1-3499-35FB-1713-A7194CFE7146">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_ALIMENTOS</sourceObjSchema>
+<sourceObjName>COD_ALIMENTO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ALIMENTO" id="4F8C29D5-2111-C789-57C0-5793A2CA1A3C">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_ALIMENTOS</sourceObjSchema>
+<sourceObjName>NM_ALIMENTO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TIPO_A" id="B6822A2D-548E-6A14-7F3D-D2C9F28A9DE2">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_ALIMENTOS</sourceObjSchema>
+<sourceObjName>DS_TIPO_A</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CAL_P_PORCAO" id="219149C7-9746-B373-898D-B766E8CEE463">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_ALIMENTOS</sourceObjSchema>
+<sourceObjName>NR_CAL_P_PORCAO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D77A221D-6CAD-2BC2-17F2-098CD09CA320" name="T_ALIMENTOS_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_ALIMENTOS_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F5D5A1-3499-35FB-1713-A7194CFE7146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C2A7BAC-615E-AA29-C158-9E10AEE3C488" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_ALIMENTOS_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_ALIMENTOS_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F5D5A1-3499-35FB-1713-A7194CFE7146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

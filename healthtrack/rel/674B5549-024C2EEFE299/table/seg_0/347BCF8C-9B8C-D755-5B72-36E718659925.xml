@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="347BCF8C-9B8C-D755-5B72-36E718659925" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_A_CONSUM">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_CONSUM</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USER_ID_USER" id="A4D2BB0F-516D-4ABB-FB37-3FDD7648B382">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_CONSUM</sourceObjSchema>
+<sourceObjName>T_USER_ID_USER</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8358FE0C-83FE-6A6E-4707-3E6FF40A2AB6" referredColumn="EDBB009E-0FF8-6D31-6F18-C12F51D17386"/>
+</associations>
+</Column>
+<Column name="NR_QT_CONSU" id="E551480C-9181-9C6B-54CD-334F0665423B">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_CONSUM</sourceObjSchema>
+<sourceObjName>NR_QT_CONSU</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TOTAL_CONSU" id="921ADCFC-1C8B-7565-587D-4067BCFFF4FA">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_CONSUM</sourceObjSchema>
+<sourceObjName>NR_TOTAL_CONSU</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_A_CONSU" id="74E26169-9BCD-3045-EA44-A59747FAB0F8">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_CONSUM</sourceObjSchema>
+<sourceObjName>DT_A_CONSU</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_ALIMENTOS_COD_ALIMENTO" id="54B90F1A-295C-9E50-429A-E73E066BEE02">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_CONSUM</sourceObjSchema>
+<sourceObjName>T_ALIMENTOS_COD_ALIMENTO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4379AC51-54E6-4C2D-2DEF-53D5F7073091" referredColumn="F7F5D5A1-3499-35FB-1713-A7194CFE7146"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70F33FD1-D09D-D4F5-03C2-E6FA6BEAB77F" name="T_A_CONSUM_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_CONSUM_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D2BB0F-516D-4ABB-FB37-3FDD7648B382"/>
+<colUsage columnID="54B90F1A-295C-9E50-429A-E73E066BEE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21341C09-A78F-F192-D6F1-71833FEC462D" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_A_CONSUM_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_CONSUM_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D2BB0F-516D-4ABB-FB37-3FDD7648B382"/>
+<colUsage columnID="54B90F1A-295C-9E50-429A-E73E066BEE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EC3092F-C85A-CF34-F77D-9390C394F623" name="T_A_CONSUM_T_ALIMENTOS_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54B90F1A-295C-9E50-429A-E73E066BEE02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE2E6B79-008D-A757-3B5B-2FE0E2D17347" name="T_A_CONSUM_T_USER_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4D2BB0F-516D-4ABB-FB37-3FDD7648B382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2214374-8A23-8C7F-00F2-33DCBD9FB561" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_A_FISICA">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_FISICA</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_A_FIS" id="8D76ECD9-5CDC-6220-4853-4F954AFA4F59">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_FISICA</sourceObjSchema>
+<sourceObjName>COD_A_FIS</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_A_FIS" id="207C0EF0-2142-2CE8-428E-E30F6DD764CD">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_FISICA</sourceObjSchema>
+<sourceObjName>NM_A_FIS</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_KCAL_P_MIN" id="A2B4D877-BC3E-EB13-76BE-9A435661F77F">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_A_FISICA</sourceObjSchema>
+<sourceObjName>NR_KCAL_P_MIN</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C1D2DCF-1627-E365-F5CC-13CE2CD26FB3" name="T_A_FISICA_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_FISICA_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D76ECD9-5CDC-6220-4853-4F954AFA4F59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C7466B1-3E82-CC4D-46B8-0757854DEDB4" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_A_FISICA_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_FISICA_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D76ECD9-5CDC-6220-4853-4F954AFA4F59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAF192A6-B27E-DF1B-7BC0-BF669FE8B295" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_PR_ART">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_PR_ART</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_PRE_ART" id="741601AC-59BE-0944-047B-239A2DE02DA4">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_PR_ART</sourceObjSchema>
+<sourceObjName>COD_PRE_ART</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_PRE_ART" id="519528F9-7E61-5737-0A7E-CF8D50EC3EBF">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_PR_ART</sourceObjSchema>
+<sourceObjName>NR_PRE_ART</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_PRE_ART" id="37E70A42-4230-23A2-8A18-FBB7A6F273B0">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_PR_ART</sourceObjSchema>
+<sourceObjName>DT_PRE_ART</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USER_ID_USER" id="3A3BE02F-FF6B-BD29-19AD-8B93B6E2CBAC">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_PR_ART</sourceObjSchema>
+<sourceObjName>T_USER_ID_USER</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6747D945-A5E1-D375-E5C1-47E615746EE3" referredColumn="EDBB009E-0FF8-6D31-6F18-C12F51D17386"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39ED0379-3B92-24AD-19D5-7E7F43E65D88" name="T_PR_ART_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_PR_ART_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741601AC-59BE-0944-047B-239A2DE02DA4"/>
+<colUsage columnID="3A3BE02F-FF6B-BD29-19AD-8B93B6E2CBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B81F94E3-2BA7-DD40-6D2E-E14BCDD15DE4" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_PR_ART_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_PR_ART_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="741601AC-59BE-0944-047B-239A2DE02DA4"/>
+<colUsage columnID="3A3BE02F-FF6B-BD29-19AD-8B93B6E2CBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D1FF830-CC74-57E8-98B2-F45ED058FEE3" name="T_PR_ART_T_USER_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3BE02F-FF6B-BD29-19AD-8B93B6E2CBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

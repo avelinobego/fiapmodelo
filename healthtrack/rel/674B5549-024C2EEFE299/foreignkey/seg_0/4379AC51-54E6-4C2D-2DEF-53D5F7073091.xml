@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4379AC51-54E6-4C2D-2DEF-53D5F7073091" containerWithKeyObject="347BCF8C-9B8C-D755-5B72-36E718659925" localFKIndex="9EC3092F-C85A-CF34-F77D-9390C394F623" name="T_A_CONSUM_T_ALIMENTOS_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_A_CONSUM_T_ALIMENTOS_FK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<referredTableLongName>FIAP.T_ALIMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FD9D6F5-A338-83C3-9B62-36A3302A5445</referredTableID>
+<keyObject>D77A221D-6CAD-2BC2-17F2-098CD09CA320</keyObject>
+<referredKeyID>D77A221D-6CAD-2BC2-17F2-098CD09CA320</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_ALIMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

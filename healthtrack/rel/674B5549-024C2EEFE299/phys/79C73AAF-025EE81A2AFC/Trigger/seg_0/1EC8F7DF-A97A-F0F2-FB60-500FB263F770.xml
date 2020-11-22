@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FKNTM_T_BAT_CARD" directorySegmentName="seg_0" id="1EC8F7DF-A97A-F0F2-FB60-500FB263F770">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>FKNTM_T_BAT_CARD</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table fiap.T_BAT_CARD is violated');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>F35F52E8-6606-962A-853A-2D7D16C6454C</columns>
+<owner>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>05E52360-A8B6-D35C-3AB2-35C2FB54D9EB</table>
+</TriggerOraclev10g>

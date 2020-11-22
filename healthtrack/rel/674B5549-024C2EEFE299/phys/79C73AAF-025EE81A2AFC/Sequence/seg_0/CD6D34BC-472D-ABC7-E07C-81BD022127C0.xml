@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_DESAFIO" directorySegmentName="seg_0" id="CD6D34BC-472D-ABC7-E07C-81BD022127C0">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>SEQ_DESAFIO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:53 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<user>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</user>
+</SequenceOraclev10g>

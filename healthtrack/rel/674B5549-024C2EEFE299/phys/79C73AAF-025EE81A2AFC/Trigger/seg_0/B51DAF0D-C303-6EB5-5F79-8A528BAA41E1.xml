@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FKNTM_T_GASTO_DIA_KCAL" directorySegmentName="seg_0" id="B51DAF0D-C303-6EB5-5F79-8A528BAA41E1">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>FKNTM_T_GASTO_DIA_KCAL</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table fiap.T_GASTO_DIA_KCAL is violated');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>AE967517-B47B-85E6-0284-08755E2B47C6, 37E4818B-0EBA-5BF2-37FF-8425AC7CB3C2</columns>
+<owner>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>0304B5BC-2126-BDCC-FE92-B3FEC500224B</table>
+</TriggerOraclev10g>

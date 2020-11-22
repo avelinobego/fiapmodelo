@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="T_BAT_CARD" directorySegmentName="seg_0" id="05E52360-A8B6-D35C-3AB2-35C2FB54D9EB">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>58A8EEA2-13B1-6F50-E9D2-E848CA9E3537</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NR_BAT_CARD" id="06C214F9-4004-28CE-D914-494D80A7E389">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_BAT_CARD" id="0DA6269A-9974-CE75-6240-D80BEACCC01B">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_BAT_CARD" id="49F04387-4FC8-22F2-BBC1-C251A46CFB53">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_USER_ID_USER" id="F35F52E8-6606-962A-853A-2D7D16C6454C">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_BAT_CARD_PK" id="4DFB7358-2BF6-AC01-DC8F-566C211B4917">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<segment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="T_BAT_CARD_T_USER_FK" id="577B6F48-42C9-F076-87CB-16E32B74A027">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_BAT_CARD_PK" id="BC287428-E78B-E78E-BE78-E0DBE6C367DA">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<segment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<existingIndex>4DFB7358-2BF6-AC01-DC8F-566C211B4917</existingIndex>
+<indexSegment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

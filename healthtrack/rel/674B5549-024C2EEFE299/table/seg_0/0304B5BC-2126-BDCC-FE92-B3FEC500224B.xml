@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0304B5BC-2126-BDCC-FE92-B3FEC500224B" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_GASTO_DIA_KCAL">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_GASTO_DIA_KCAL</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NR_TMP_A" id="6658252E-A0E6-EC11-588A-4F16E19645E2">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_GASTO_DIA_KCAL</sourceObjSchema>
+<sourceObjName>NR_TMP_A</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TOTAL_GASTO" id="AB0F5B59-7413-04DC-94B6-9DC009F785EC">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_GASTO_DIA_KCAL</sourceObjSchema>
+<sourceObjName>NR_TOTAL_GASTO</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USER_ID_USER" id="37E4818B-0EBA-5BF2-37FF-8425AC7CB3C2">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_GASTO_DIA_KCAL</sourceObjSchema>
+<sourceObjName>T_USER_ID_USER</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9811F781-B561-30F4-2CBA-2F46898EFAEF" referredColumn="EDBB009E-0FF8-6D31-6F18-C12F51D17386"/>
+</associations>
+</Column>
+<Column name="T_A_FISICA_COD_A_FIS" id="AE967517-B47B-85E6-0284-08755E2B47C6">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_GASTO_DIA_KCAL</sourceObjSchema>
+<sourceObjName>T_A_FISICA_COD_A_FIS</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A42145A-FD75-DD87-5F68-D81CE7B44BFF" referredColumn="8D76ECD9-5CDC-6220-4853-4F954AFA4F59"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF33B238-86E8-062D-0CF4-D2F293D17E93" name="T_GASTO_DIA_KCAL_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_GASTO_DIA_KCAL_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E4818B-0EBA-5BF2-37FF-8425AC7CB3C2"/>
+<colUsage columnID="AE967517-B47B-85E6-0284-08755E2B47C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABBAE696-7EA9-12CF-CD61-8C1FF0F47C9D" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_GASTO_DIA_KCAL_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_GASTO_DIA_KCAL_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E4818B-0EBA-5BF2-37FF-8425AC7CB3C2"/>
+<colUsage columnID="AE967517-B47B-85E6-0284-08755E2B47C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="140C98B5-BBB9-6675-9238-43E5AE20B14B" name="T_GASTO_DIA_KCAL_T_A_FISICA_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE967517-B47B-85E6-0284-08755E2B47C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF130562-78B7-84B5-93BB-AEDE02A2FD44" name="T_GASTO_DIA_KCAL_T_USER_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37E4818B-0EBA-5BF2-37FF-8425AC7CB3C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

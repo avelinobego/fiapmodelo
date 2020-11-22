@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9811F781-B561-30F4-2CBA-2F46898EFAEF" containerWithKeyObject="0304B5BC-2126-BDCC-FE92-B3FEC500224B" localFKIndex="DF130562-78B7-84B5-93BB-AEDE02A2FD44" name="T_GASTO_DIA_KCAL_T_USER_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_GASTO_DIA_KCAL_T_USER_FK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<referredTableLongName>FIAP.T_USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A899CC62-74D8-CF0B-472C-4AF8D50EBE4C</referredTableID>
+<keyObject>B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D</keyObject>
+<referredKeyID>B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

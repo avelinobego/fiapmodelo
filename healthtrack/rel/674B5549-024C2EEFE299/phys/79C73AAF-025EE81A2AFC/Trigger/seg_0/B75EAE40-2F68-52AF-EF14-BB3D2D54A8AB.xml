@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FKNTM_T_A_CONSUM" directorySegmentName="seg_0" id="B75EAE40-2F68-52AF-EF14-BB3D2D54A8AB">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>FKNTM_T_A_CONSUM</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN
+    raise_application_error(-20225, 'Non Transferable FK constraint  on table fiap.T_A_CONSUM is violated');
+END;
+]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>A4D2BB0F-516D-4ABB-FB37-3FDD7648B382</columns>
+<owner>2B6DE33B-55C5-20F2-3E90-C108EDA185AE</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>347BCF8C-9B8C-D755-5B72-36E718659925</table>
+</TriggerOraclev10g>

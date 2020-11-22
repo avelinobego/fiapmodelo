@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="T_ALIMENTOS" directorySegmentName="seg_0" id="9FD9D6F5-A338-83C3-9B62-36A3302A5445">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>58A8EEA2-13B1-6F50-E9D2-E848CA9E3537</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NR_CAL_P_PORCAO" id="219149C7-9746-B373-898D-B766E8CEE463">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_ALIMENTO" id="4F8C29D5-2111-C789-57C0-5793A2CA1A3C">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DS_TIPO_A" id="B6822A2D-548E-6A14-7F3D-D2C9F28A9DE2">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COD_ALIMENTO" id="F7F5D5A1-3499-35FB-1713-A7194CFE7146">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="T_ALIMENTOS_PK" id="1C2A7BAC-615E-AA29-C158-9E10AEE3C488">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<schemaObject>39A3F895-7120-4ED3-F14C-45F55D3C7CBB</schemaObject>
+<segment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="T_ALIMENTOS_PK" id="D77A221D-6CAD-2BC2-17F2-098CD09CA320">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<segment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</segment>
+<tableSpace>3AECA2FA-BDFD-59E7-9060-BC0BD59274B2</tableSpace>
+<existingIndex>1C2A7BAC-615E-AA29-C158-9E10AEE3C488</existingIndex>
+<indexSegment>D76BEBA6-DAFC-F4FC-BE44-7B7966E50A66</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

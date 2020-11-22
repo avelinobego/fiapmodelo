@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="43BF2056-B6B3-7705-6630-A032F9F989E2" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:16:47 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+</StorageDesignOraclev12cR2>

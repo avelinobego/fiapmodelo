@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FDF46E09-79F3-E907-7A60-B4F77B3043E0" containerWithKeyObject="05E52360-A8B6-D35C-3AB2-35C2FB54D9EB" localFKIndex="577B6F48-42C9-F076-87CB-16E32B74A027" name="T_BAT_CARD_T_USER_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_BAT_CARD_T_USER_FK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<referredTableLongName>FIAP.T_USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A899CC62-74D8-CF0B-472C-4AF8D50EBE4C</referredTableID>
+<keyObject>B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D</keyObject>
+<referredKeyID>B7FA8651-B5C0-9476-BDF5-F86EF05E0B6D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_USER</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

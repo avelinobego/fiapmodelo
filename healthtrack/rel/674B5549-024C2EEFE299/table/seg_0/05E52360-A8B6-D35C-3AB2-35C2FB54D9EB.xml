@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05E52360-A8B6-D35C-3AB2-35C2FB54D9EB" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_BAT_CARD">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_BAT_CARD</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_BAT_CARD" id="49F04387-4FC8-22F2-BBC1-C251A46CFB53">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_BAT_CARD</sourceObjSchema>
+<sourceObjName>COD_BAT_CARD</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_BAT_CARD" id="06C214F9-4004-28CE-D914-494D80A7E389">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_BAT_CARD</sourceObjSchema>
+<sourceObjName>NR_BAT_CARD</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_BAT_CARD" id="0DA6269A-9974-CE75-6240-D80BEACCC01B">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_BAT_CARD</sourceObjSchema>
+<sourceObjName>DT_BAT_CARD</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USER_ID_USER" id="F35F52E8-6606-962A-853A-2D7D16C6454C">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>T_BAT_CARD</sourceObjSchema>
+<sourceObjName>T_USER_ID_USER</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:54 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDF46E09-79F3-E907-7A60-B4F77B3043E0" referredColumn="EDBB009E-0FF8-6D31-6F18-C12F51D17386"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC287428-E78B-E78E-BE78-E0DBE6C367DA" name="T_BAT_CARD_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_BAT_CARD_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F04387-4FC8-22F2-BBC1-C251A46CFB53"/>
+<colUsage columnID="F35F52E8-6606-962A-853A-2D7D16C6454C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DFB7358-2BF6-AC01-DC8F-566C211B4917" schemaObject="39A3F895-7120-4ED3-F14C-45F55D3C7CBB" name="T_BAT_CARD_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>FIAP</sourceObjSchema>
+<sourceObjName>T_BAT_CARD_PK</sourceObjName>
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:55 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F04387-4FC8-22F2-BBC1-C251A46CFB53"/>
+<colUsage columnID="F35F52E8-6606-962A-853A-2D7D16C6454C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="577B6F48-42C9-F076-87CB-16E32B74A027" name="T_BAT_CARD_T_USER_FK">
+<createdBy>aveli</createdBy>
+<createdTime>2020-11-22 04:17:56 UTC</createdTime>
+<ownerDesignName>healthtrack</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35F52E8-6606-962A-853A-2D7D16C6454C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
